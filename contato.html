@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/formulario.css">
+</head>
+<body>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Dados Pessoais</a></li>
+                <li><a href="./index.html">Dados Profissionais</a></li>
+                <li><a href="./index.html">Dados Acadêmicos</a></li>
+                <li><a href="./index.html">Disciplinas</a></li>
+                <li><a href="./index.html">Atividades de Lazer</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="formulario">
+        <h2>Preencha o formulário</h2><br>
+        <form action="">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" placeholder="Digite seu nome"><br>
+            <hr>
+            <label for="telefone">Telefone:</label><br>
+            <input type="number" name="telefone" placeholder="Digite seu telefone"><br>
+            <hr>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="Digite seu email"><br>
+            <hr>
+            <label for="motivoContato">Motivo do contato:</label><br>
+            <input type="radio" name="motivoContato">Trabalho <br>
+            <input type="radio" name="motivoContato">Oportunidade <br>
+            <input type="radio" name="motivoContato">Emprego <br>
+            <hr>
+            <label for="comentarios">Comentarios gerais:</label><br>
+            <textarea name="comentarios" placeholder="Comentários gerais" rows="5"></textarea><br>
+            <hr>
+            <input type="button" value="Enviar" id="botao">
+        </form>
+    </div>
+</body>
+</html>

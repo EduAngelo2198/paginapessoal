@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: snow;
+}
+
+#title {
+    font-size: 30px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu {
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.menu a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 4px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    color: gray;
+    background-color: rgb(136, 201, 223);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+}
+
+.card-text {
+    justify-content: center;
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.card-text li {
+    text-align: center;
+}
+
+.card-text h2 {
+    font-size: 30px;
+    color: rgb(121, 89, 89);
+    margin-bottom: 12px;
+}
+
+.card-image {
+    width: 30%;
+    margin: 10px;
+}
+
+.card-image img {
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: lightblue;
+}
+
+.segundarios {
+    margin: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    background-color: lightblue;
+    height: 5px;
+    margin: auto;
+ }
+
+ table, th, td {
+    border: 1px lightblue solid;
+    text-align: center;
+    padding: 2px;
+}
+
+table {
+    width: 40%;
+}

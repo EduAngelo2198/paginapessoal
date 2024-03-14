@@ -1,0 +1,36 @@
+.formulario {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    margin: 7cqw auto;
+    border:1px lightblue solid;
+    background-color: rgb(221, 229, 231);
+}
+
+.formulario input {
+    margin: 5px;
+}
+
+.formulario label {
+    font-size: 20px;
+}
+
+textarea {
+    margin: 5px;
+}
+
+form {
+    text-align: center;
+} 
+
+.formulario hr {
+    margin: 5px;
+}
+
+#botao {
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
